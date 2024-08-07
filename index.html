@@ -36,7 +36,8 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+  
+    <section id="profile" >
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="Basil Skaria profile picture" />
       </div>
@@ -72,7 +73,8 @@
         </div>
       </div>
     </section>
-    <section id="about">
+  
+    <section id="about" >
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -111,7 +113,7 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+    <section id="experience" >
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -245,7 +247,8 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
+
+    <section id="projects" >
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -309,7 +312,8 @@
         onclick="location.href='./#contact'"
       />
     </section>
-    <section id="contact">
+    
+    <section id="contact"  class="hidden">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -345,5 +349,35 @@
       <p>Copyright &#169; 2024 Basil Skaria. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+       const sr = ScrollReveal();
+    sr.reveal('#profile', {
+        duration: 3000, // Animation duration (in milliseconds)
+        origin: 'left', // Slide in from the left
+        distance: '100px', // Distance to slide
+    });
+    sr.reveal('#experience', {
+        duration: 3000, // Animation duration (in milliseconds)
+        origin: 'left', // Slide in from the left
+        distance: '100px', // Distance to slide
+    });
+    sr.reveal('#contact', {
+        duration: 3000, // Animation duration (in milliseconds)
+        origin: 'left', // Slide in from the left
+        distance: '50px', // Distance to slide
+    });
+    sr.reveal('#projects', {
+        duration: 3000, // Animation duration (in milliseconds)
+        origin: 'left', // Slide in from the left
+        distance: '50px', // Distance to slide
+    });
+    sr.reveal('#about', {
+        duration: 3000, // Animation duration (in milliseconds)
+        origin: 'left', // Slide in from the left
+        distance: '50px', // Distance to slide
+    });
+    </script>
+
   </body>
 </html>
