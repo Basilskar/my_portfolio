@@ -28,7 +28,7 @@ sr.reveal('#projects', {
  distance: '100px', // Distance to slide
 });
 sr.reveal('#about', {
- duration: 4000, // Animation duration (in milliseconds)
+ duration: 5000, // Animation duration (in milliseconds)
  origin: 'left', // Slide in from the left
  distance: '10px', // Distance to slide
 });
