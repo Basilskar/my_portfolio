@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-/*==animation while scroll==*/
+/* ==animation while scroll== */
 const sr = ScrollReveal();
 sr.reveal('#profile', {
  duration: 3000, // Animation duration (in milliseconds)
