@@ -7,10 +7,15 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   </head>
   <body>
+    <button class="toggle-button" id="dark-mode-toggle">
+      <div id="myIcon">
+        <i class="uil uil-sun"></i>
+      </div> </button>
+    Dark Mode
     <nav id="desktop-nav">
-      <div class="logo"></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,6 +25,8 @@
         </ul>
       </div>
     </nav>
+  
+  
     <nav id="hamburger-nav">
       <div class="logo">Basil Skaria</div>
       <div class="hamburger-menu">
@@ -43,7 +50,7 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Basil Skaria</h1>
+        <h1 class="title"id="element"></h1>
         <p class="section__text__p2">Software Engineer</p>
         <div class="btn-container">
           <a href="https://drive.google.com/file/d/1nYbi4x52udUFBzAxEEOFlDOgC9ejbJXS/view?usp=sharing">
@@ -101,8 +108,9 @@
           </div>
           <div class="text-container">
             <p>
-              I’m a Computer Science student at VIT University, Chennai, with a passion for web development and software engineering. Currently, I am actively involved in various tech clubs and projects, including the Linux Club and the Biosphere Club at VIT Chennai. My recent project, an Environment Monitoring System, showcases my skills in JavaScript, Firebase, and more. I thrive in collaborative environments and am always eager to learn and take on new challenges. Open to opportunities in web development, React development, and software engineering roles.
-            </p>
+             I’m a Computer Science student at VIT University, Chennai, with a passion for web development and software engineering. Currently, I am actively involved in various tech clubs and projects, including the Linux Club and the Biosphere Club at VIT Chennai. My recent project, an Environment Monitoring System, showcases my skills in JavaScript, Firebase, and more. I thrive in collaborative environments and am always eager to learn and take on new challenges. Open to opportunities in web development, React development, and software engineering roles.
+             
+             </p>
           </div>
         </div>
       </div>
@@ -317,7 +325,7 @@
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
-        <div class="contact-info-container">
+        <div class="contact-info-container"id="em">
           <img
             src="./assets/email.png"
             alt="Email icon"
@@ -348,8 +356,11 @@
       </nav>
       <p>Copyright &#169; 2024 Basil Skaria. All Rights Reserved.</p>
     </footer>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal"></script> /* for scroll animation package */
+      <!-- Include Typed.js (adjust the path) -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
-     
+   
+
   </body>
 </html>
