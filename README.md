@@ -12,7 +12,9 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - 🌟 **Amazing UI** – Visually appealing and clean layout  
 - 📱 **Fully Responsive** – Works seamlessly on all devices  
 - ⚡ **Fast Performance** – Optimized for quick load times  
+- 🌗 **Dark Mode & Light Mode** – Easily switch themes  
 - 📂 **Projects Showcase** – Highlights key projects with details  
+- 📌 **Sidebar Navigation** – Smooth and intuitive menu  
 - 📧 **Contact Section** – Users can reach out directly  
 
 ## 🛠️ Tech Stack  
